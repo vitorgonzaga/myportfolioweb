@@ -1,0 +1,45 @@
+.breathing-code-box {
+  position: absolute;
+  width: 526px;
+  height: 242px;
+  left: 181px;
+  top: 40px;
+  z-index: 1;
+
+  font-family: 'Montserrat', sans-serif;
+  /* font-style: normal; */
+  /* font-weight: 0; */
+  font-size: 120px;
+  line-height: 170.9%;
+  /* line-height: 100.9%; */
+  /* or 121px */
+  color: #1D1F23;
+}
+
+.contacts-box {
+  position: absolute;
+  width: 227px;
+  height: 109px;
+  left: 190px;
+  top: 690px;
+}
+
+.short-presentation-box {
+  position: absolute;
+  width: 778px;
+  height: 475px;
+  left: 616px;
+  top: 401px;
+  z-index: 0;
+
+  background: #D6D7D7;
+}
+
+.previous-presentation-box {
+  /* position: absolute; */
+  position: relative;
+  width: 271px;
+  height: 170px;
+  left: 90px;
+  top: 200px;
+}

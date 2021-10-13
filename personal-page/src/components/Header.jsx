@@ -9,22 +9,31 @@ const Header = () => {
   };
   return (
     <div className="main-box-header">
+      <div className="circle" />
       <div className="box-links">
         <button
           className="buttons-header"
           onClick={handleClick}
           type="button"
-          value="lets-talk"
+          value="letstalk"
         >
           Lets Talk
         </button>
         <button
           className="buttons-header"
           type="button"
-          value="about-me"
+          value="aboutme"
           onClick={handleClick}
         >
           About Me
+        </button>
+        <button
+          className="buttons-header"
+          type="button"
+          value="repositories"
+          onClick={handleClick}
+        >
+          Repositories
         </button>
         <button
           className="buttons-header"
