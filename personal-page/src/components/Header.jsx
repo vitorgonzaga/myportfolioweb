@@ -11,14 +11,14 @@ const Header = () => {
     <div className="main-box-header">
       <div className="circle" />
       <div className="box-links">
-        <button
+        {/* <button
           className="buttons-header"
           onClick={handleClick}
           type="button"
           value="letstalk"
         >
           Lets Talk
-        </button>
+        </button> */}
         <button
           className="buttons-header"
           type="button"

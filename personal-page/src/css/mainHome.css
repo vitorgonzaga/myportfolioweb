@@ -3,13 +3,13 @@
   width: 526px;
   height: 242px;
   left: 181px;
-  top: 40px;
+  top: 100px;
   z-index: 1;
 
   font-family: 'Montserrat', sans-serif;
   /* font-style: normal; */
   /* font-weight: 0; */
-  font-size: 120px;
+  font-size: 80px;
   line-height: 170.9%;
   /* line-height: 100.9%; */
   /* or 121px */
@@ -26,13 +26,26 @@
 
 .short-presentation-box {
   position: absolute;
-  width: 778px;
-  height: 475px;
-  left: 616px;
-  top: 401px;
+  width: 1250px;
+  height: 665px;
+  left: 470px;
+  top: 340px;
   z-index: 0;
 
   background: #D6D7D7;
+  border-radius: 0px 100px 0px 0px;
+}
+
+.img-box {
+  position: relative;
+  width: 665px;
+  height: 665px;
+  float:right;
+  /* left: 712px; */
+  /* top: 0px; */
+
+  background: #1D1F23;
+  border-radius: 0px 100px 0px 0px;
 }
 
 .previous-presentation-box {
@@ -42,4 +55,43 @@
   height: 170px;
   left: 90px;
   top: 200px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contacts-box {
+  position: absolute;
+  width: 127px;
+  height: 109px;
+  left: 190px;
+  top: 548px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icons-box {
+  /* position:absolute; */
+  /* float: right; */
+  /* left: 150px; */
+  margin-top: 39px;
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+
+.email-box {
+  line-height: 50%;
+}
+
+.phone-box {
+  margin-top: 39px;
+  line-height: 50%;
+  width: 127px;
+}
+
+.img-box {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
