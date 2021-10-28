@@ -4,3 +4,4 @@ export { default as LetsTalk } from './LetsTalk';
 export { default as Portfolio } from './Portfolio';
 export { default as FrontEnd } from './FrontEnd';
 export { default as BackEnd } from './BackEnd';
+export { default as Repositories } from './Repositories';
