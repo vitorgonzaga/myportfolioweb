@@ -3,6 +3,8 @@ import '../css/mainHome.css';
 import githubicon from '../icons/iconmonstr-github-1.svg';
 import linkedinicon from '../icons/iconmonstr-linkedin-3.svg';
 import profileImage from '../images/home_photo_9.png';
+import Carrousel from './Carrousel';
+import arrDataCardsHighlights from '../data/arrHighlights';
 
 const MainHome = () => (
   <div>
@@ -57,6 +59,9 @@ const MainHome = () => (
           <div className="read-more-link">Read more</div>
         </a>
       </div>
+    </div>
+    <div>
+      <Carrousel data={arrDataCardsHighlights} />
     </div>
 
   </div>
